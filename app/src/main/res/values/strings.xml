@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application5</string>
+    <string name="title_activity_maps_current_location">CurrentLocation</string>
+    <string name="title_activity_search_address">SearchAddress</string>
+    <string name="button_goto_screen_1">Main Screen</string>
+    <string name="button_goto_CurrentLoction">Current Loction</string>
+    <string name="button_goto_BuildingRunningTrack">Building Running Track</string>
+    <string name="button_goto_SearchAddress">Search Address</string>
+    <string name="title_activity_current_location">CurrentLoction</string>
+    <string name="title_activity_building_running_track">BuildingRunningTrack</string>
+
+
+    <string name="Search">Search Address</string>
+
+    <string name="project_name">Project Name</string>
+
+    <string name="menu_about">About us</string>
+    <string name="menu_history">History</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_contact">Contact Us</string>
+</resources>
