@@ -2,7 +2,6 @@ package com.example.shirley.myapplication5;
 
 
 import android.Manifest;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Build;
@@ -63,8 +62,7 @@ public class CurrentLocation extends FragmentActivity implements OnMapReadyCallb
     }
 
     private void gotoSearchAddresss (View view){
-        Intent intent = new Intent(this, SearchAddress.class);
-        startActivity(intent);
+        onDestroy();
     }
 
 
@@ -104,6 +102,7 @@ public class CurrentLocation extends FragmentActivity implements OnMapReadyCallb
         mLocationRequest.setInterval(1000);
         mLocationRequest.setFastestInterval(1000);
         mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
+
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {

@@ -15,7 +15,8 @@
     <string name="project_name">Project Name</string>
 
     <string name="menu_about">About us</string>
+    <string name="about">Blalala</string>
     <string name="menu_history">History</string>
-    <string name="menu_favourite">Favourite</string>
+    <string name="menu_showWebPage">showWebPage</string>
     <string name="menu_contact">Contact Us</string>
 </resources>
